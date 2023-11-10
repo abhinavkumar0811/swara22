@@ -40,6 +40,20 @@ body{
     background: var(--bg);
 
 }
+section{
+    padding: 2rem 7%;
+}
+.heading{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 4rem;
+    font-size: 4rem;
+}
+.heading span{
+    color: var(--main-color);
+    text-transform: uppercase;
+}
 
 
 .btn{
@@ -93,7 +107,8 @@ body{
     color: #fff;
     cursor: pointer;
     font-size: 2.5rem;
-    margin: 2rem;
+    margin-left: 2rem;
+
 }
 
 
@@ -215,6 +230,67 @@ body{
 }
 
 
+.Home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(https://images.pexels.com/photos/8819850/pexels-photo-8819850.jpeg?auto=compress&cs=tinysrgb&w=1600) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.Home .content{
+    max-width: 60rem;
+}
+
+
+.Home .content h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.979);
+}
+
+
+.Home .content h3 span{
+    color: #d8ae7b;
+}
+
+
+.Home .content p{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: rgb(252, 249, 249);
+}
+
+
+.about .row{
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
+
+
+.about .row .image{
+    flex: 1 1 45rem;
+}
+
+
+.about .row .image img{
+   width: 100%;
+}
+
+
+.about .row .image .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+
+
 
 
 
@@ -254,6 +330,9 @@ body{
     .header{
         padding: 1.5rem 2rem;
     }
+    section{
+        padding: 2rem;
+    }
 }
 
 
@@ -284,7 +363,26 @@ body{
     }
 
 
-    @media (max-width:991px){
+.Home{
+    background-position: left;
+    justify-content: center;
+    text-align: center;
+}
+
+.Home .content h3{
+    font-size: 4.5rem;
+}
+
+.Home .content h3 span{
+    font-size: 4.5rem;
+}
+
+.Home .content p{
+    font-size: 2rem;
+}
+
+
+    @media (max-width:450px){
         html{
             font-size: 50%;
         }
