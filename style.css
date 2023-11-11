@@ -47,7 +47,7 @@ section{
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    padding: 4rem;
+    padding: 3.5rem;
     font-size: 4rem;
 }
 .heading span{
@@ -103,13 +103,13 @@ section{
 }
 
 
-.header .icons div{
-    color: #fff;
+ .header .icons div{ 
+    color: #ed0b0b;
     cursor: pointer;
     font-size: 2.5rem;
     margin-left: 2rem;
-
 }
+
 
 
 .header .icon div:hover{
@@ -284,9 +284,23 @@ section{
 }
 
 
-.about .row .image .content{
+.about .row .content{
     flex: 1 1 45rem;
     padding: 2rem;
+}
+
+
+.about .row .content h3{
+    font-size: 3rem;
+    color: #fff;
+}
+
+
+.about .row .content p{
+    font-size: 1.6rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.8;
 }
 
 
