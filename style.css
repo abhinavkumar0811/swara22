@@ -234,7 +234,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(https://images.pexels.com/photos/8819850/pexels-photo-8819850.jpeg?auto=compress&cs=tinysrgb&w=1600) no-repeat;
+    background: url(https://images.pexels.com/photos/8819850/pexels-photo-8819850.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -385,7 +385,7 @@ section{
 
 
 .items .box-container .box img{
-    height: 15rem;
+    height: 20rem;
 }
 
 
